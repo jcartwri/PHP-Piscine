@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8cb408cd-9c2f-45a9-8cc0-da2f707435ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../day00/ex03/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04/ex00/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04/ex01/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04/ex01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04/ex02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04/ex02/modif.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04/ex03/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04/ex03/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04/ex03/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day04/ex03/whoami.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day06/Color.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day06/Color.doc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day06/example.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day06/example2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex00/balloon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex01/calc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex03/ex00bis/balloon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex03/ex01bis/calc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex03/ex02bis/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex03/ex02bis/todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex00/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex00/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex01/mendeleev.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex01/mendeleev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/doft.css" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/doft.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/doft.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/doft.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/book.png" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/book.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/brick.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/brick.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/chat-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/chat-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/close.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/close.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/cluster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/cluster.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/day_of_the_42.png" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/day_of_the_42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/doft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/doft.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/loupe.png" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/loupe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/main.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/oeil.png" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/oeil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/outil.png" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/outil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/reload.png" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/reload.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day00/ex02/resources/towel.png" beforeDir="false" afterPath="$PROJECT_DIR$/../day00/ex02/resources/towel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex00/hw.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex00/hw.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex01/mlx.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex01/mlx.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex02/oddeven.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex02/oddeven.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex03/ft_split.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex03/ft_split.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex05/epur_str.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex05/epur_str.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex05/epur_str_regexp.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex05/epur_str_regexp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/ssup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex07/rostring.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex07/rostring.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex09/ssap2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex09/ssap2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex10/do_op.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex10/do_op.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex11/do_op_2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex11/do_op_2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex00/another_world.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/ex00/another_world.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex01/hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex01/one_more_time.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/ex01/one_more_time.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex02/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex03/who.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/ex03/who.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/42.fr/42_logo_black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/42.fr/home_big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/curl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/04AAC3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/0F243A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/1413002770.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/2DD6B8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/2c405036fe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/46DF8D.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/4EC5F5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/558E5A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/6A8F70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/77A437.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/77E0B1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/8B8EA8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/D500A6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/ED9E3D.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/d1398861.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/d17184638.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/d703055.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/d795553.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/i1629.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex04/mail.ru/q4Oq.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex05/SalesJan2009.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex05/db.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex05/denial.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/ex05/denial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/ex05/git.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex01/phpinfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex01/phpinfo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex02/print_get.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex02/print_get.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex03/cookie_crisp.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex03/cookie_crisp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex04/raw_text.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex04/raw_text.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex05/read_img.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex05/read_img.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex06/members_only.php" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex06/members_only.php" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex03/ex01bis/calc.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-224">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex02/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex02/todo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex03/ex02bis/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>prom</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/script1.js" />
+        <option value="$PROJECT_DIR$/ex01/213.html" />
+        <option value="$PROJECT_DIR$/ex01/calc.html" />
+        <option value="$PROJECT_DIR$/ex00/script1.js" />
+        <option value="$PROJECT_DIR$/ex00/index.html" />
+        <option value="$USER_HOME$/Downloads/day09/ex03/ex00bis/balloon.html" />
+        <option value="$PROJECT_DIR$/ex03/ex00bis/balloon.html" />
+        <option value="$PROJECT_DIR$/ex02/index.html" />
+        <option value="$PROJECT_DIR$/ex03/ex01bis/calc.html" />
+        <option value="$PROJECT_DIR$/ex03/ex02bis/index.html" />
+        <option value="$PROJECT_DIR$/ex03/ex02bis/todo.js" />
+        <option value="$PROJECT_DIR$/ex02/todo.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="22" />
+    <option name="width" value="1246" />
+    <option name="height" value="1347" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="day09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day09" type="462c0819:PsiDirectoryNode" />
+              <item name="ex02" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ex03/ex02bis" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ex03/ex02bis" />
+      <recent name="$PROJECT_DIR$/ex03/ex01bis" />
+      <recent name="$PROJECT_DIR$/ex03/ex00bis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ex00" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cb408cd-9c2f-45a9-8cc0-da2f707435ee" name="Default Changelist" comment="" />
+      <created>1557474953798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557474953798</updated>
+      <workItem from="1557474958037" duration="33000" />
+      <workItem from="1557475002269" duration="542000" />
+      <workItem from="1557479430386" duration="6360000" />
+      <workItem from="1557498458768" duration="5948000" />
+      <workItem from="1557512106683" duration="457000" />
+      <workItem from="1557554515818" duration="31487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="44827000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="22" width="1246" height="1347" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21387754" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329591" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.329591" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/Rush00/_Rush00/app/items/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2208">
+          <caret line="92" column="7" lean-forward="true" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex01/213.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="33" lean-forward="true" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex00/script1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex00/balloon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/day09/ex03/ex00bis/balloon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/day09/ex03/ex01bis/calc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="60" column="37" lean-forward="true" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex03/ex00bis/balloon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/day09/ex03/ex02bis/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex01/calc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/day09/ex03/ex02bis/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex03/ex01bis/calc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex03/ex02bis/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex02/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex02/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex03/ex02bis/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

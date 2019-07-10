@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Ballon</title>
+		<style>
+			#balloon {
+				width: 200px;
+				height: 200px;
+				border-radius: 100%;
+				background-color: red;
+				margin: auto;
+				margin-top: 500px;
+			}
+		</style>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
+
+		<script>
+			var i;
+			var j;
+			var colors = ['red', 'green', 'blue'];
+
+			$("document").ready(function() {
+				$('#balloon').click(function() {
+					if (typeof i == 'undefined') {
+						i = 0;
+					}
+					if (++i < 3) {
+						$('#balloon').css({'background-color': colors[i]});
+					}
+					else {
+						i = 0;
+						$('#balloon').css({'background-color': colors[i]});
+					}
+
+					if ($('#balloon').width() < 420) {
+						$('#balloon').css({'width': $('#balloon').width() + 10});
+						$('#balloon').css({'height': $('#balloon').height() + 10});
+					}
+					else {
+						$('#balloon').css({'width': '200px'});
+						$('#balloon').css({'height': '200px'});
+					}
+				});
+
+				$('#balloon').hover(function() {
+					if (typeof j == 'undefined') {
+						j = 3;
+					}
+					if (--j >= 0) {
+						$('#balloon').css({'background-color': colors[j]});
+					}
+					else {
+						j = 2;
+						$('#balloon').css({'background-color': colors[j]});
+					}
+
+					if ($('#balloon').width() > 200) {
+						$('#balloon').css({'width': $('#balloon').width() - 5});
+						$('#balloon').css({'height': $('#balloon').height() - 5});
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="balloon"></div>
+	</body>
+</html>

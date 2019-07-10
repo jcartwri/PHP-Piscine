@@ -1,0 +1,37 @@
+
+<- Matrix ----------------------------------------------------------------------
+The Matrix class handles 4x4 Matrixs.
+it's got a finite constante values for the preset :
+- IDENTITY		= 'IDENTITY',
+- SCALE			= 'SCALE',
+- RX			= 'Ox ROTATION',
+- RY			= 'Oy ROTATION',
+- RZ			= 'Oz ROTATION',
+- TRANSLATION	= 'TRANSLATION',
+- PROJECTION	= 'PROJECTION';
+
+The Class’ constructor is waiting for an array. The following keys are required:
+- ’preset’:	the matrix type to, mandatory. The value must be one of the Class constants previoulsy defined.
+- ’scale’:	the scale factor, mandatory when ’preset’ is worth SCALE.
+- ’angle’:	the rotation angle in radians, mandatory when’preset’ is worth RX, RY or RZ.
+- ’vtc’:	translation vector, mandatory when ’preset’ is worth TRANSLATION.
+- ’fov’:	projectionfieldofviewindegreesmandatorywhen’preset’is worth PROJECTION.
+- ’ratio’:	projected image ratio, mandatory when ’preset’ is worth PROJECTION.
+- ’near’:	projection’snearclippingplanemandatorywhen’preset’is worth PROJECTION.
+- ’far’:	projection’sfarclippingplanemandatorywhen’preset’is worth PROJECTION.
+
+On wich depends the following arguments respectivly :
+- IDENTITY		-> nothing
+- SCALE			-> the scale
+- RX			-> angle of rotation
+- RY			-> angle of rotation
+- RZ			-> angle of rotation
+- TRANSLATION 	-> vector ( class Vector ) of the translation
+- PROJECTION  	-> Field of view ( in degrees ), Ratio (width/height of screen), near and far z distances
+
+When a Matrix is created, you won't be able to change its values after.
+
+The following methods are provided this Class:
+- mult() : return a new matrix corresponding to the multiplication of the instance by the argument
+- transformVertex() : return a new Vertex corresponding to the matrix apply to the one sent in argument
+---------------------------------------------------------------------- Matrix ->

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Periodic Table</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            padding-top: 1vw;
+            padding-left: 1vw;
+            font-size: 1vw;
+            font-family: monospace;
+            color: rebeccapurple;
+            margin: 0;
+        }
+        .main_table {
+            margin-top: 1vw;
+            /*margin: 10%;*/
+            border-bottom: 3px solid white;
+            /*padding-left: 5px;*/
+            padding: 3%;
+            width: calc(100% - 5px);
+            border-spacing: 1px;
+
+        }
+        .header_img {
+            background: lightgreen url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/02/54/155618c2a170703.jpg") no-repeat center 0;
+            /*transform: rotate(180deg);*/
+            text-align: left;
+            background-size: cover;
+            min-height: 100px;
+        }
+        td {
+            border: none;
+            padding: 2px;
+        }
+        .blank
+        {
+            border: none;
+        }
+        .yellow_c
+        {
+            background-color:yellow;
+        }
+        .cyan_c{
+            background-color: cyan;
+        }
+        .dark_yellow_c {
+            background-color: #CBCC9D;
+        }
+        .light_red_c {
+            background-color: #EEE359;
+        }
+        .red_c {
+            background-color: orangered;
+        }
+        .grey_c {
+            background-color: darkgray;
+        }
+        .colar_c {
+            background-color: coral;
+        }
+        .light_grey_c {
+            background-color: lightgray;
+        }
+        .purple_c {
+            background-color: #F19ECA;
+        }
+        .pink_c {
+            background-color: #F5C2FB;
+        }
+        td p{
+            font-size: 2vw;
+            /*color: -moz-mac-accentdarkestshadow;*/
+            font-family: monospace;
+        }
+        td p:nth-child(1) {
+            margin: 0;
+            font-size: 1vw;
+            text-align: right;
+        }
+        td p:nth-child(2) {
+            margin: 0;
+            font-weight: bold;
+            text-align: center;
+        }
+        td p:nth-child(3) {
+            margin: 0;
+            font-size: 1vw;
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+<div class="header_img">
+
+</div>
+<table class="main_table">
+    <tr>
+        <td class="yellow_c">
+            <p>1.008</p><p>H</p><p>1</p>
+        </td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="cyan_c">
+            <p>4.0026</p><p>He</p><p>2</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="red_c">
+            <p>6.94</p><p>Li</p><p>3</p>
+        </td>
+        <td class="light_red_c">
+            <p>9.01</p><p>Be</p><p>4</p>
+        </td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="dark_yellow_c">
+            <p>10.81</p><p>B</p><p>5</p>
+        </td>
+        <td class="yellow_c">
+            <p>12.01</p><p>C</p><p>6</p>
+        </td>
+        <td class="yellow_c">
+            <p>14.01</p><p>N</p><p>7</p>
+        </td>
+        <td class="yellow_c">
+            <p>16.00</p><p>O</p><p>8</p>
+        </td>
+        <td class="yellow_c">
+            <p>19.00</p><p>F</p><p>9</p>
+        </td>
+        <td class="cyan_c">
+            <p>20.18</p><p>Ne</p><p>10</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="red_c">
+            <p>22.99</p><p>Na</p><p>11</p>
+        </td>
+        <td class="light_red_c">
+            <p>24.31</p><p>Mg</p><p>12</p>
+        </td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="grey_c">
+            <p>26.98</p><p>Al</p><p>13</p>
+        </td>
+        <td class="dark_yellow_c">
+            <p>28.09</p><p>Si</p><p>14</p>
+        </td>
+        <td class="yellow_c">
+            <p>30.97</p><p>P</p><p>15</p>
+        </td>
+        <td class="yellow_c">
+            <p>32.07</p><p>S</p><p>16</p>
+        </td>
+        <td class="yellow_c">
+            <p>35.45</p><p>Ci</p><p>17</p>
+        </td>
+        <td class="cyan_c">
+            <p>39.95</p><p>Ar</p><p>18</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="red_c">
+            <p>39.10</p><p>K</p><p>19</p>
+        </td>
+        <td class="light_red_c">
+            <p>40.08</p><p>Ca</p><p>20</p>
+        </td>
+        <td class="colar_c">
+            <p>44.96</p><p>Sc</p><p>21</p>
+        </td>
+        <td class="colar_c">
+            <p>47.87</p><p>Ti</p><p>22</p>
+        </td>
+        <td class="colar_c">
+            <p>50.94</p><p>V</p><p>23</p>
+        </td>
+        <td class="colar_c">
+            <p>52.00</p><p>Cr</p><p>24</p>
+        </td>
+        <td class="colar_c">
+            <p>54.94</p><p>Mn</p><p>25</p>
+        </td>
+        <td class="colar_c">
+            <p>55.85</p><p>Fe</p><p>26</p>
+        </td>
+        <td class="colar_c">
+            <p>58.93</p><p>Co</p><p>27</p>
+        </td>
+        <td class="colar_c">
+            <p>58.69</p><p>Ni</p><p>28</p>
+        </td>
+        <td class="colar_c">
+            <p>63.55</p><p>Cu</p><p>29</p>
+        </td>
+        <td class="grey_c">
+            <p>65.38</p><p>Zn</p><p>30</p>
+        </td>
+        <td class="grey_c">
+            <p>39.72</p><p>Ga</p><p>31</p>
+        </td>
+        <td class="dark_yellow_c">
+            <p>72.63</p><p>Ge</p><p>32</p>
+        </td>
+        <td class="dark_yellow_c">
+            <p>74.92</p><p>As</p><p>33</p>
+        </td>
+        <td class="yellow_c">
+            <p>78.96</p><p>Se</p><p>34</p>
+        </td>
+        <td class="yellow_c">
+            <p>79.90</p><p>Br</p><p>35</p>
+        </td>
+        <td class="cyan_c">
+            <p>83.80</p><p>Kr</p><p>36</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="red_c">
+            <p>85.47</p><p>Rb</p><p>37</p>
+        </td>
+        <td class="light_red_c">
+            <p>87.62</p><p>Sr</p><p>38</p>
+        </td>
+        <td class="colar_c">
+            <p>88.91</p><p>Y</p><p>39</p>
+        </td>
+        <td class="colar_c">
+            <p>91.22</p><p>Zr</p><p>40</p>
+        </td>
+        <td class="colar_c">
+            <p>92.91</p><p>Nb</p><p>41</p>
+        </td>
+        <td class="colar_c">
+            <p>95.96</p><p>Mo</p><p>42</p>
+        </td>
+        <td class="colar_c">
+            <p>[98]</p><p>Tc</p><p>43</p>
+        </td>
+        <td class="colar_c">
+            <p>101.07</p><p>Ru</p><p>44</p>
+        </td>
+        <td class="colar_c">
+            <p>102.91</p><p>Rh</p><p>45</p>
+        </td>
+        <td class="colar_c">
+            <p>106.42</p><p>Pd</p><p>46</p>
+        </td>
+        <td class="colar_c">
+            <p>107.87</p><p>Ag</p><p>47</p>
+        </td>
+        <td class="grey_c">
+            <p>112.41</p><p>Cd</p><p>48</p>
+        </td>
+        <td class="grey_c">
+            <p>114.82</p><p>In</p><p>49</p>
+        </td>
+        <td class="grey_c">
+            <p>118.71</p><p>Sn</p><p>50</p>
+        </td>
+        <td class="dark_yellow_c">
+            <p>121.76</p><p>Sb</p><p>51</p>
+        </td>
+        <td class="dark_yellow_c">
+            <p>127.60</p><p>Te</p><p>52</p>
+        </td>
+        <td class="yellow_c">
+            <p>126.90</p><p>I</p><p>53</p>
+        </td>
+        <td class="cyan_c">
+            <p>131.29</p><p>Xe</p><p>54</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="red_c">
+            <p>132.91</p><p>Cs</p><p>55</p>
+        </td>
+        <td class="light_red_c">
+            <p>137.33</p><p>Ba</p><p>56</p>
+        </td>
+        <td class="colar_c">
+            <p>174.97</p><p>Lu</p><p>57</p>
+        </td>
+        <td class="colar_c">
+            <p>178.49</p><p>Hf</p><p>72</p>
+        </td>
+        <td class="colar_c">
+            <p>180.95</p><p>Ta</p><p>73</p>
+        </td>
+        <td class="colar_c">
+            <p>183.84</p><p>W</p><p>74</p>
+        </td>
+        <td class="colar_c">
+            <p>186.21</p><p>Re</p><p>75</p>
+        </td>
+        <td class="colar_c">
+            <p>190.23</p><p>Os</p><p>76</p>
+        </td>
+        <td class="colar_c">
+            <p>192.22</p><p>Ir</p><p>77</p>
+        </td>
+        <td class="colar_c">
+            <p>195.08</p><p>Pt</p><p>78</p>
+        </td>
+        <td class="colar_c">
+            <p>196.97</p><p>Au</p><p>79</p>
+        </td>
+        <td class="grey_c">
+            <p>200.59</p><p>Hg</p><p>80</p>
+        </td>
+        <td class="grey_c">
+            <p>204.38</p><p>Ti</p><p>81</p>
+        </td>
+        <td class="grey_c">
+            <p>207.2</p><p>Pb</p><p>82</p>
+        </td>
+        <td class="grey_c">
+            <p>208.98</p><p>Bi</p><p>83</p>
+        </td>
+        <td class="grey_c">
+            <p>[209]</p><p>Po</p><p>84</p>
+        </td>
+        <td class="dark_yellow_c">
+            <p>[210]</p><p>At</p><p>85</p>
+        </td>
+        <td class="cyan_c">
+            <p>[222]</p><p>Rn</p><p>86</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="red_c">
+            <p>[223]</p><p>Fr</p><p>87</p>
+        </td>
+        <td class="light_red_c">
+            <p>[226]</p><p>Ra</p><p>88</p>
+        </td>
+        <td class="colar_c">
+            <p>[262]</p><p>Lr</p><p>89</p>
+        </td>
+        <td class="colar_c">
+            <p>[267]</p><p>Rf</p><p>104</p>
+        </td>
+        <td class="colar_c">
+            <p>[268]</p><p>Db</p><p>105</p>
+        </td>
+        <td class="colar_c">
+            <p>[271]</p><p>Sg</p><p>106</p>
+        </td>
+        <td class="colar_c">
+            <p>[272]</p><p>Bh</p><p>107</p>
+        </td>
+        <td class="colar_c">
+            <p>[277]</p><p>Hs</p><p>108</p>
+        </td>
+        <td class="light_grey_c">
+            <p>[276]</p><p>Mt</p><p>109</p>
+        </td>
+        <td class="light_grey_c">
+            <p>[281]</p><p>Ds</p><p>110</p>
+        </td>
+        <td class="light_grey_c">
+            <p>[280]</p><p>Rg</p><p>111</p>
+        </td>
+        <td class="grey_c">
+            <p>[285]</p><p>Cn</p><p>112</p>
+        </td>
+        <td class="light_grey_c">
+            <p>[284]</p><p>Nh</p><p>113</p>
+        </td>
+        <td class="light_grey_c">
+            <p>[289]</p><p>Fl</p><p>114</p>
+        </td>
+        <td class="light_grey_c">
+            <p>[288]</p><p>Mc</p><p>115</p>
+        </td>
+        <td class="light_grey_c">
+            <p>[293]</p><p>Lv</p><p>116</p>
+        </td>
+        <td class="light_grey_c">
+            <p>[294]</p><p>Ts</p><p>117</p>
+        </td>
+        <td class="light_grey_c">
+            <p>[294]</p><p>Og</p><p>118</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="pink_c">
+            <p>140.12</p><p>Ce</p><p>58</p>
+        </td>
+        <td class="pink_c">
+            <p>140.91</p><p>Pr</p><p>59</p>
+        </td>
+        <td class="pink_c">
+            <p>144.24</p><p>Nd</p><p>60</p>
+        </td>
+        <td class="pink_c">
+            <p>[145]</p><p>Pm</p><p>61</p>
+        </td>
+        <td class="pink_c">
+            <p>150.36</p><p>Sm</p><p>62</p>
+        </td>
+        <td class="pink_c">
+            <p>151.96</p><p>Eu</p><p>63</p>
+        </td>
+        <td class="pink_c">
+            <p>157.25</p><p>Gd</p><p>64</p>
+        </td>
+        <td class="pink_c">
+            <p>158.93</p><p>Tb</p><p>65</p>
+        </td>
+        <td class="pink_c">
+            <p>162.50</p><p>Dy</p><p>66</p>
+        </td>
+        <td class="pink_c">
+            <p>164.93</p><p>Ho</p><p>67</p>
+        </td>
+        <td class="pink_c">
+            <p>167.26</p><p>Er</p><p>68</p>
+        </td>
+        <td class="pink_c">
+            <p>168.93</p><p>Tm</p><p>69</p>
+        </td>
+        <td class="pink_c">
+            <p>173.05</p><p>Yb</p><p>70</p>
+        </td>
+        <td class="pink_c">
+            <p>173.05</p><p>Lu</p><p>71</p>
+        </td>
+        <td class="blank"></td>
+    </tr>
+    <tr>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="blank"></td>
+        <td class="purple_c">
+            <p>232.04</p><p>Tn</p><p>90</p>
+        </td>
+        <td class="purple_c">
+            <p>231.04</p><p>Pa</p><p>91</p>
+        </td>
+        <td class="purple_c">
+            <p>238.03</p><p>U</p><p>92</p>
+        </td>
+        <td class="purple_c">
+            <p>[237]</p><p>Np</p><p>93</p>
+        </td>
+        <td class="purple_c">
+            <p>[244]</p><p>Pu</p><p>94</p>
+        </td>
+        <td class="purple_c">
+            <p>[243]</p><p>Am</p><p>95</p>
+        </td>
+        <td class="purple_c">
+            <p>[247]</p><p>Cm</p><p>96</p>
+        </td>
+        <td class="purple_c">
+            <p>[247]</p><p>Bk</p><p>97</p>
+        </td>
+        <td class="purple_c">
+            <p>[251]</p><p>Cf</p><p>98</p>
+        </td>
+        <td class="purple_c">
+            <p>[252]</p><p>Es</p><p>99</p>
+        </td>
+        <td class="purple_c">
+            <p>[257]</p><p>Fm</p><p>100</p>
+        </td>
+        <td class="purple_c">
+            <p>[258]</p><p>Md</p><p>101</p>
+        </td>
+        <td class="purple_c">
+            <p>[259]</p><p>No</p><p>102</p>
+        </td>
+        <td class="purple_c">
+            <p>[266]</p><p>Lr</p><p>103</p>
+        </td>
+        <td class="blank">
+
+        </td>
+    </tr>
+</table>
+</table>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <style>
+        #left_dig, #right_dig {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="left_dig">
+        <select name="" id="operator">
+            <option value="">--op--></option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+        <input type="text" id="right_dig">
+        <input type="submit" id="result" value="Try me">
+    </div>
+    <script>
+        function fn30sec() {
+            alert('Please, use me...');
+        }
+        setInterval(fn30sec, 30*1000);
+        res = document.getElementById('result');
+        res.onclick = function () {
+            var operators = {
+                '+': function(x, y) { return x + y },
+                '-': function(x, y) { return x - y },
+                '/': function(x, y) { return x / y },
+                '%': function(x, y) { return x % y },
+                '*': function(x, y) { return x * y },
+            };
+            var a = document.getElementById('left_dig').value;
+            var b = document.getElementById('right_dig').value;
+            var op = document.getElementById('operator').value;
+            if ((/\d+?$/.test(a)) && /\d+?$/.test(b)) {
+                if ((op === "%" && parseInt(b) === 0) || op === "/" && parseInt(b) === 0)
+                    alert('It\'s over 9000!');
+                else {
+                    console.log(op);
+                    alert(operators[op](parseInt(a), parseInt(b)));
+                }
+            }
+            else {
+                alert('Error :(')
+            }
+        }
+    </script>
+
+</body>
+</html>

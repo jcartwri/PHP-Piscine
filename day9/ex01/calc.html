@@ -1,0 +1,70 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<title>Calc</title>
+</head>
+<body>
+	<input id="num1" type="text">
+	<select id="sign">
+		<option value="+">+</option>
+		<option value="-">-</option>
+		<option value="*">*</option>
+		<option value="/">/</option>
+		<option value="%">%</option>
+	</select>
+	<input id="num2" type="text">
+	<input id="sub" type="submit" name="sub_try" value="Try me!">
+
+	<script>
+		var	a = document.getElementById("num1");
+		var	b = document.getElementById("num2");
+		var	obj_sub = document.getElementById("sub");
+		setTimeout(func, 30000);
+		function func()
+		{
+			alert("Please, use me...");
+		}
+		obj_sub.onclick = function()
+		{
+			var sign = document.getElementById("sign");
+			if (a.value == "" || b.value == "")
+			{
+				alert("Error :(");
+			}
+			else
+			{
+				var a1 = Number(a.value);
+				var b1 = Number(b.value);
+				if (a1 < 0 || b1 < 0 || isNaN(a1) || isNaN(b1))
+					alert("Error :(");
+				else
+				{
+					if (sign.value == "+")
+					{
+						alert(a1 + b1);
+					}
+					else if (sign.value == "-")
+					{
+						alert(a1 - b1);
+					}
+					else if (sign.value == "*")
+					{
+						alert(a1 * b1);
+					}
+					else if (sign.value == "/" && b1 != 0)
+					{
+						alert(a1 / b1);
+					}
+					else if (sign.value == "%" && b1 != 0)
+					{
+						alert(a1 % b1);
+					}
+					else
+					{
+						alert("It’s over 9000!");
+					}
+				}
+			}
+		}
+	</script>
+</body>

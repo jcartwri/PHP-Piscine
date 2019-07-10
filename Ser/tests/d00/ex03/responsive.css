@@ -1,0 +1,119 @@
+
+#mendeleevimg {
+	margin: 0 auto;
+	margin-left: 12%;
+	width: 10%;
+	height: 15%;
+	display: block;
+}
+
+body {
+	font-size: 100%;
+}
+
+#heading h1 {
+	font-size: 2vw;
+}
+
+#table {
+	text-align: center;
+	width: 76%;
+	margin-top: 1%;
+	margin-left: 12%;
+}
+
+.element {
+	border: 0.5px solid black;
+	width: 4vw;
+	height: 4.7vw;
+	color: black;
+}
+
+.element p {
+	margin-top: 0.2vw;
+	margin-bottom: 0.1vw;
+}
+
+.element .elem_symbol {
+	font-size: 1.1vw;
+}
+
+.elem_weight {
+	font-size: 0.5vw;
+	text-align: right;
+	margin-right: 0.2vw;
+	color: black;
+}
+
+.elem_number {
+	font-size: 0.5vw;
+	text-align: left;
+	margin-left: 0.2vw;
+	color: black;
+}
+
+.hiddenelem {
+	margin: 2vh 0;
+}
+
+#zvezda {
+	font-size: 2vw;
+	font-weight: 500;
+	padding: 0;
+	margin: 0;
+}
+
+#actinoids{
+	padding: 0.2vh 0.2vw;
+	font-size: 1vw;
+}
+
+#legend td {
+	font-size: 10px;
+	height: 30px;
+	padding: 0 10px;
+}
+
+#legend td h2 {
+	margin: 0;
+}
+
+.transmet {
+	background-color: #a7c0cd;
+}
+
+.alkmet {
+	background-color: #e0e0e0;
+}
+
+.alkearthmet {
+	background-color: #d3b8ae;
+}
+
+.metaloid {
+	background-color: #d2ce56;
+}
+
+.polyatnonmet {
+	background-color: #52c7b8;
+}
+
+.diatnonmet {
+	background-color: #ffeb3b;
+}
+
+.noblegas {
+	background-color: #4dd0e1;
+}
+
+.lactin {
+	background-color: #ee98fb;
+}
+
+.actin {
+	background-color: #ff94c2;
+}
+
+.posttransmet {
+	background-color: #a4a4a4;
+}

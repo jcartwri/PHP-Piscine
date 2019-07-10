@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Balloon</title>
+	<style>
+		#shar{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div id="shar"></div>
+	<script>
+		var	i = 0;
+		var size = 200;
+		var obj = document.getElementById('shar');
+		var mas = ['red', 'green', 'blue'];
+		obj.onclick = function()
+		{
+			i = (i == 2) ? 0 : i + 1;
+			obj.style.backgroundColor = mas[i];
+			if (size > 420)
+			{
+				size = 200;
+				obj.style.width = size + 'px';
+				obj.style.height = size + 'px';
+			}
+			else
+			{
+				size = size + 10;
+				obj.style.width = size + 'px';
+				obj.style.height = size + 'px';
+			}
+		}
+		obj.onmouseout = function()
+		{
+			if (size > 200)
+			{
+				size = size - 5;
+				obj.style.width = size + 'px';
+				obj.style.height = size + 'px';
+				i = (i == 0) ? 2 : i - 1;
+				obj.style.backgroundColor = mas[i];
+			}
+		}
+	</script>
+</body>
+</html>

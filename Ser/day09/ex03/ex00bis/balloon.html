@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <style>
+        #balloon {
+            width: 200px;
+            height: 200px;
+            background: red;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="balloon"></div>
+    <script>
+        var balloon;
+        var curWidth;
+        var color = ['red', 'green', 'blue'];
+        var i = 1;
+
+        function blower() {
+            balloon.css('height', curWidth);
+            balloon.css('width', curWidth);
+        }
+
+       function blowBalloon () {
+            curWidth < 420 ? curWidth += 10 : curWidth = 200;
+            i > 1 ? i = 0 : i++;
+            balloon.css("backgroundColor", color[i]);
+            blower();
+            console.log(curWidth);
+        }
+
+        function shrinkBalloon () {
+            curWidth < 420 && curWidth > 200 ? curWidth -= 5 : curWidth = 200;
+            i <= 0 ? i = 2 : i--;
+            balloon.css("backgroundColor", color[i]);
+            blower();
+        }
+
+        window.onload = function () {
+            balloon = $('#balloon');
+            curWidth = parseInt(balloon.css('width'));
+            balloon.click(blowBalloon);
+            balloon.mouseleave(shrinkBalloon);
+        };
+
+    </script>
+</body>
+</html>

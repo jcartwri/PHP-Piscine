@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container ul{
+    list-style: none;
+}
+
+#container ul ul {
+    display: none;
+}
+
+#container ul li:hover > ul{
+    display: inline-block;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.05);
+}
+
+#container ul li ul li {
+    font-size: 1.5vw;
+}
+
+
+#container ul li {
+    background-color: aqua;
+    width: 15vw;
+    border: 0.1vw solid white;
+    height: 4.5vw;
+    line-height: 4.5vw;
+    float: left;
+    color: white;
+    font-size: 1.9vw;
+    text-align: center;
+    font-variant: all-small-caps;
+    font-family: Helvetica, monospace;
+
+
+}
+body {
+    background: #F7F9F9;
+}
+
+#container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#container ul li:hover {
+    background-color: aquamarine;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}

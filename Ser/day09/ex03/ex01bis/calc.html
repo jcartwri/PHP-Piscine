@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <style>
+        #left_dig, #right_dig {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="left_dig">
+        <select name="" id="operator">
+            <option value="">--op--></option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+        <input type="text" id="right_dig">
+        <input type="submit" id="result" value="Try me">
+    </div>
+    <script>
+        function do_op() {
+            var operators = {
+                '+': function(x, y) { return x + y },
+                '-': function(x, y) { return x - y },
+                '/': function(x, y) { return x / y },
+                '%': function(x, y) { return x % y },
+                '*': function(x, y) { return x * y },
+            };
+            var a = $('#left_dig').val().trim();
+            var b = $('#right_dig').val().trim();
+            var op = $('#operator').val();
+            console.log(a, op, b);
+            if ((/\d+?$/.test(a)) && /\d+?$/.test(b)) {
+                if ((op === "%" && parseInt(b) === 0) || op === "/" && parseInt(b) === 0)
+                    alert('It\'s over 9000!');
+                else {
+                    console.log(op);
+                    alert(operators[op](parseInt(a), parseInt(b)));
+                }
+            }
+            else {
+                alert('Error :(')
+            }
+        }
+        submitBtn = $('#result');
+        submitBtn.click(do_op);
+        setInterval(function () {
+            alert("Please, use me...")
+        }, 30000);
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
